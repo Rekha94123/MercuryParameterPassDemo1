@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MercuryTsTest">
+<parameter name="browser" value="chrome"></parameter>
+  <test name="Test">
+  <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"></parameter>
+  <parameter name="username1" value="Suvidyap1"></parameter>
+  <parameter name="password1" value="P@ssword1"></parameter>
+  <parameter name="username2" value="Suvidyap2"></parameter>
+  <parameter name="password2" value="P@ssword2"></parameter>
+  <parameter name="username3" value="Suvidyap3"></parameter>
+  <parameter name="password3" value="P@ssword3"></parameter>
+  <parameter name="invalidusername" value="Suvidya"></parameter>
+  <parameter name="invalidpassword" value="P@ssword"></parameter>
+  <parameter name="invalidusername1" value="Suvid"></parameter>
+  <parameter name="invalidpassword1" value="P@ss"></parameter>
+  <classes>
+      <class name="parameterTestng.MercuryTsTest"/>
+    </classes>
+  
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

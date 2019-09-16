@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MercuryTsTest">
+              <span class="suite-name border-failed">MercuryTsTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MercuryTsTest">
+                    <span>C:\Users\user\eclipse-workspace\MercuryParameterPassDemo1\testng6.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MercuryTsTest">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MercuryTsTest">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MercuryTsTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MercuryTsTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MercuryTsTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MercuryTsTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods, 2 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MercuryTsTest" class="hide-methods failed suite-MercuryTsTest"> (hide)</a> <!-- hide-methods failed suite-MercuryTsTest -->
+                      <a href="#" panel-name="suite-MercuryTsTest" class="show-methods failed suite-MercuryTsTest"> (show)</a> <!-- show-methods failed suite-MercuryTsTest -->
+                    </span>
+                    <div class="method-list-content failed suite-MercuryTsTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MercuryTsTest" title="parameterTestng.MercuryTsTest" hash-for-method="loginwithInvaliduserds(Suvidya, P@ssword)">loginwithInvaliduserds(Suvidya, P@ssword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MercuryTsTest" title="parameterTestng.MercuryTsTest" hash-for-method="loginwithInvaliduserds2(Suvid, P@ss)">loginwithInvaliduserds2(Suvid, P@ss)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MercuryTsTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MercuryTsTest" class="hide-methods passed suite-MercuryTsTest"> (hide)</a> <!-- hide-methods passed suite-MercuryTsTest -->
+                      <a href="#" panel-name="suite-MercuryTsTest" class="show-methods passed suite-MercuryTsTest"> (show)</a> <!-- show-methods passed suite-MercuryTsTest -->
+                    </span>
+                    <div class="method-list-content passed suite-MercuryTsTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MercuryTsTest" title="parameterTestng.MercuryTsTest" hash-for-method="loginwithValiduser1ds(Suvidyap1, P@ssword1)">loginwithValiduser1ds(Suvidyap1, P@ssword1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MercuryTsTest" title="parameterTestng.MercuryTsTest" hash-for-method="loginwithValiduser2ds(Suvidyap2, P@ssword2)">loginwithValiduser2ds(Suvidyap2, P@ssword2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MercuryTsTest" title="parameterTestng.MercuryTsTest" hash-for-method="loginwithValiduser3ds(Suvidyap3, P@ssword3)">loginwithValiduser3ds(Suvidyap3, P@ssword3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MercuryTsTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MercuryTsTest" class="panel MercuryTsTest">
+          <div class="suite-MercuryTsTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">parameterTestng.MercuryTsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithInvaliduserds(Suvidya, P@ssword)">
+                  </a> <!-- loginwithInvaliduserds(Suvidya, P@ssword) -->
+                  <span class="method-name">loginwithInvaliduserds</span>
+                  <span class="parameters">(Suvidya, P@ssword)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;/images/masts/mast_flightfinder.gif&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-JEJJHSS&apos;, ip: &apos;192.168.43.62&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src=&apos;/images/masts/mast_flightfinder.gif&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at parameterTestng.MercuryTsTest.loginwithInvaliduserds(MercuryTsTest.java:103)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that invalid user not able to login into Mercury Tours Application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithInvaliduserds2(Suvid, P@ss)">
+                  </a> <!-- loginwithInvaliduserds2(Suvid, P@ss) -->
+                  <span class="method-name">loginwithInvaliduserds2</span>
+                  <span class="parameters">(Suvid, P@ss)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@src=&apos;/images/masts/mast_flightfinder.gif&apos;]&quot;}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-JEJJHSS&apos;, ip: &apos;192.168.43.62&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src=&apos;/images/masts/mast_flightfinder.gif&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at parameterTestng.MercuryTsTest.loginwithInvaliduserds2(MercuryTsTest.java:120)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify that invalid user not able to login into Mercury Tours Application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MercuryTsTest-class-failed -->
+          <div class="suite-MercuryTsTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">parameterTestng.MercuryTsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValiduser1ds(Suvidyap1, P@ssword1)">
+                  </a> <!-- loginwithValiduser1ds(Suvidyap1, P@ssword1) -->
+                  <span class="method-name">loginwithValiduser1ds</span>
+                  <span class="parameters">(Suvidyap1, P@ssword1)</span>
+                  <em>
+(Verify that User1 able to login into Mercury Tours Application by using valid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValiduser2ds(Suvidyap2, P@ssword2)">
+                  </a> <!-- loginwithValiduser2ds(Suvidyap2, P@ssword2) -->
+                  <span class="method-name">loginwithValiduser2ds</span>
+                  <span class="parameters">(Suvidyap2, P@ssword2)</span>
+                  <em>
+(Verify that User1 able to login into Mercury Tours Application by using valid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValiduser3ds(Suvidyap3, P@ssword3)">
+                  </a> <!-- loginwithValiduser3ds(Suvidyap3, P@ssword3) -->
+                  <span class="method-name">loginwithValiduser3ds</span>
+                  <span class="parameters">(Suvidyap3, P@ssword3)</span>
+                  <em>
+(Verify that User1 able to login into Mercury Tours Application by using valid username and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MercuryTsTest-class-passed -->
+        </div> <!-- panel MercuryTsTest -->
+        <div panel-name="test-xml-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\MercuryParameterPassDemo1\testng6.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MercuryTsTest&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;invalidusername&quot; value=&quot;Suvidya&quot;/&gt;
+    &lt;parameter name=&quot;password3&quot; value=&quot;P@ssword3&quot;/&gt;
+    &lt;parameter name=&quot;invalidusername1&quot; value=&quot;Suvid&quot;/&gt;
+    &lt;parameter name=&quot;invalidpassword1&quot; value=&quot;P@ss&quot;/&gt;
+    &lt;parameter name=&quot;password2&quot; value=&quot;P@ssword2&quot;/&gt;
+    &lt;parameter name=&quot;username3&quot; value=&quot;Suvidyap3&quot;/&gt;
+    &lt;parameter name=&quot;password1&quot; value=&quot;P@ssword1&quot;/&gt;
+    &lt;parameter name=&quot;username2&quot; value=&quot;Suvidyap2&quot;/&gt;
+    &lt;parameter name=&quot;username1&quot; value=&quot;Suvidyap1&quot;/&gt;
+    &lt;parameter name=&quot;invalidpassword&quot; value=&quot;P@ssword&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://newtours.demoaut.com/mercurywelcome.php&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parameterTestng.MercuryTsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;test name=&quot;Test(failed)&quot;&gt;
+    &lt;parameter name=&quot;invalidusername&quot; value=&quot;Suvidya&quot;/&gt;
+    &lt;parameter name=&quot;password3&quot; value=&quot;P@ssword3&quot;/&gt;
+    &lt;parameter name=&quot;invalidusername1&quot; value=&quot;Suvid&quot;/&gt;
+    &lt;parameter name=&quot;invalidpassword1&quot; value=&quot;P@ss&quot;/&gt;
+    &lt;parameter name=&quot;password2&quot; value=&quot;P@ssword2&quot;/&gt;
+    &lt;parameter name=&quot;username3&quot; value=&quot;Suvidyap3&quot;/&gt;
+    &lt;parameter name=&quot;password1&quot; value=&quot;P@ssword1&quot;/&gt;
+    &lt;parameter name=&quot;username2&quot; value=&quot;Suvidyap2&quot;/&gt;
+    &lt;parameter name=&quot;username1&quot; value=&quot;Suvidyap1&quot;/&gt;
+    &lt;parameter name=&quot;invalidpassword&quot; value=&quot;P@ssword&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;http://newtours.demoaut.com/mercurywelcome.php&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;parameterTestng.MercuryTsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dbConnectionClosed&quot;/&gt;
+          &lt;include name=&quot;openBrowser&quot;/&gt;
+          &lt;include name=&quot;deleteAllCookies&quot;/&gt;
+          &lt;include name=&quot;afterSuite&quot;/&gt;
+          &lt;include name=&quot;getAllCookies&quot;/&gt;
+          &lt;include name=&quot;captureScreenshot&quot;/&gt;
+          &lt;include name=&quot;loginwithInvaliduserds2&quot; invocation-numbers=&quot;0&quot;/&gt;
+          &lt;include name=&quot;enterApplicationURL&quot;/&gt;
+          &lt;include name=&quot;loginwithInvaliduserds&quot; invocation-numbers=&quot;0&quot;/&gt;
+          &lt;include name=&quot;maximiseBrowser&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- parameterTestng.MercuryTsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- MercuryTsTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MercuryTsTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MercuryTsTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginwithInvaliduserds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginwithValiduser1ds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MercuryTsTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MercuryTsTest');
+function tableData_MercuryTsTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginwithValiduser3ds')
+data.setCell(0, 2, 'parameterTestng.MercuryTsTest')
+data.setCell(0, 3, 13231);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginwithValiduser1ds')
+data.setCell(1, 2, 'parameterTestng.MercuryTsTest')
+data.setCell(1, 3, 8099);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginwithValiduser2ds')
+data.setCell(2, 2, 'parameterTestng.MercuryTsTest')
+data.setCell(2, 3, 7227);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginwithInvaliduserds2')
+data.setCell(3, 2, 'parameterTestng.MercuryTsTest')
+data.setCell(3, 3, 2462);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginwithInvaliduserds')
+data.setCell(4, 2, 'parameterTestng.MercuryTsTest')
+data.setCell(4, 3, 2370);
+window.suiteTableData['MercuryTsTest']= { tableData: data, tableDiv: 'times-div-MercuryTsTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <div id="times-div-MercuryTsTest">
+              </div> <!-- times-div-MercuryTsTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MercuryTsTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MercuryTsTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">parameterTestng.MercuryTsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">openBrowser(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">enterApplicationURL(http://newtours.demoaut.com/mercurywelcome.php)</span>
+                <span class="method-start">4630 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">maximiseBrowser</span>
+                <span class="method-start">6921 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">8057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithValiduser1ds(Suvidyap1, P@ssword1)</span>
+                <span class="method-start">8075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">16179 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">16652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithValiduser2ds(Suvidyap2, P@ssword2)</span>
+                <span class="method-start">16661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">23893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">24307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginwithValiduser3ds(Suvidyap3, P@ssword3)</span>
+                <span class="method-start">24319 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">37554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">37955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginwithInvaliduserds(Suvidya, P@ssword)</span>
+                <span class="method-start">37963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">40342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">getAllCookies</span>
+                <span class="method-start">40756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginwithInvaliduserds2(Suvid, P@ss)</span>
+                <span class="method-start">40765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">captureScreenshot</span>
+                <span class="method-start">43231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteAllCookies</span>
+                <span class="method-start">43669 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">dbConnectionClosed</span>
+                <span class="method-start">43765 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">43908 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MercuryTsTest]">
+  <parameter name="invalidusername" value="Suvidya"/>
+  <parameter name="password3" value="P@ssword3"/>
+  <parameter name="invalidusername1" value="Suvid"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="invalidpassword1" value="P@ss"/>
+  <parameter name="password2" value="P@ssword2"/>
+  <parameter name="username3" value="Suvidyap3"/>
+  <parameter name="password1" value="P@ssword1"/>
+  <parameter name="username2" value="Suvidyap2"/>
+  <parameter name="username1" value="Suvidyap1"/>
+  <parameter name="invalidpassword" value="P@ssword"/>
+  <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+  <test name="Test">
+    <parameter name="invalidusername" value="Suvidya"/>
+    <parameter name="password3" value="P@ssword3"/>
+    <parameter name="invalidusername1" value="Suvid"/>
+    <parameter name="invalidpassword1" value="P@ss"/>
+    <parameter name="password2" value="P@ssword2"/>
+    <parameter name="username3" value="Suvidyap3"/>
+    <parameter name="password1" value="P@ssword1"/>
+    <parameter name="username2" value="Suvidyap2"/>
+    <parameter name="username1" value="Suvidyap1"/>
+    <parameter name="invalidpassword" value="P@ssword"/>
+    <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+    <classes>
+      <class name="parameterTestng.MercuryTsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <parameter name="invalidusername" value="Suvidya"/>
+    <parameter name="password3" value="P@ssword3"/>
+    <parameter name="invalidusername1" value="Suvid"/>
+    <parameter name="invalidpassword1" value="P@ss"/>
+    <parameter name="password2" value="P@ssword2"/>
+    <parameter name="username3" value="Suvidyap3"/>
+    <parameter name="password1" value="P@ssword1"/>
+    <parameter name="username2" value="Suvidyap2"/>
+    <parameter name="username1" value="Suvidyap1"/>
+    <parameter name="invalidpassword" value="P@ssword"/>
+    <parameter name="url" value="http://newtours.demoaut.com/mercurywelcome.php"/>
+    <classes>
+      <class name="parameterTestng.MercuryTsTest">
+        <methods>
+          <include name="dbConnectionClosed"/>
+          <include name="openBrowser"/>
+          <include name="deleteAllCookies"/>
+          <include name="afterSuite"/>
+          <include name="getAllCookies"/>
+          <include name="captureScreenshot"/>
+          <include name="loginwithInvaliduserds2" invocation-numbers="0"/>
+          <include name="enterApplicationURL"/>
+          <include name="loginwithInvaliduserds" invocation-numbers="0"/>
+          <include name="maximiseBrowser"/>
+        </methods>
+      </class> <!-- parameterTestng.MercuryTsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MercuryTsTest] -->

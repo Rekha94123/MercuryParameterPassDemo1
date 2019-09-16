@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MercuryTsTest" duration-ms="39145" started-at="2019-09-03T08:04:26Z" finished-at="2019-09-03T08:05:05Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="MercuryTsTest.loginwithInvaliduserds(java.lang.String, java.lang.String)[pri:4, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithInvaliduserds" class="parameterTestng.MercuryTsTest"/>
+        <method signature="MercuryTsTest.loginwithValiduser1ds(java.lang.String, java.lang.String)[pri:1, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithValiduser1ds" class="parameterTestng.MercuryTsTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="39145" started-at="2019-09-03T08:04:26Z" finished-at="2019-09-03T08:05:05Z">
+      <class name="parameterTestng.MercuryTsTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="openBrowser" is-config="true" duration-ms="4621" started-at="2019-09-03T13:34:22Z" finished-at="2019-09-03T13:34:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="enterApplicationURL(java.lang.String)[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="enterApplicationURL" is-config="true" duration-ms="2282" started-at="2019-09-03T13:34:26Z" finished-at="2019-09-03T13:34:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterApplicationURL -->
+        <test-method status="PASS" signature="maximiseBrowser()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="maximiseBrowser" is-config="true" duration-ms="1131" started-at="2019-09-03T13:34:29Z" finished-at="2019-09-03T13:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximiseBrowser -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="getAllCookies" is-config="true" duration-ms="18" started-at="2019-09-03T13:34:30Z" finished-at="2019-09-03T13:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValiduser1ds(java.lang.String, java.lang.String)[pri:1, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithValiduser1ds" duration-ms="8099" started-at="2019-09-03T13:34:30Z" description="Verify that User1 able to login into Mercury Tours Application by using valid username and password" finished-at="2019-09-03T13:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValiduser1ds -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="captureScreenshot" is-config="true" duration-ms="471" started-at="2019-09-03T13:34:38Z" finished-at="2019-09-03T13:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="getAllCookies" is-config="true" duration-ms="9" started-at="2019-09-03T13:34:38Z" finished-at="2019-09-03T13:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValiduser2ds(java.lang.String, java.lang.String)[pri:2, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithValiduser2ds" duration-ms="7227" started-at="2019-09-03T13:34:38Z" description="Verify that User1 able to login into Mercury Tours Application by using valid username and password" finished-at="2019-09-03T13:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValiduser2ds -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="captureScreenshot" is-config="true" duration-ms="414" started-at="2019-09-03T13:34:45Z" finished-at="2019-09-03T13:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="getAllCookies" is-config="true" duration-ms="12" started-at="2019-09-03T13:34:46Z" finished-at="2019-09-03T13:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="PASS" signature="loginwithValiduser3ds(java.lang.String, java.lang.String)[pri:3, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithValiduser3ds" duration-ms="13231" started-at="2019-09-03T13:34:46Z" description="Verify that User1 able to login into Mercury Tours Application by using valid username and password" finished-at="2019-09-03T13:34:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithValiduser3ds -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="captureScreenshot" is-config="true" duration-ms="400" started-at="2019-09-03T13:34:59Z" finished-at="2019-09-03T13:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="getAllCookies" is-config="true" duration-ms="8" started-at="2019-09-03T13:35:00Z" finished-at="2019-09-03T13:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="FAIL" signature="loginwithInvaliduserds(java.lang.String, java.lang.String)[pri:4, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithInvaliduserds" duration-ms="2370" started-at="2019-09-03T13:35:00Z" description="Verify that invalid user not able to login into Mercury Tours Application" finished-at="2019-09-03T13:35:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-JEJJHSS', ip: '192.168.43.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-JEJJHSS', ip: '192.168.43.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at parameterTestng.MercuryTsTest.loginwithInvaliduserds(MercuryTsTest.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvaliduserds -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="captureScreenshot" is-config="true" duration-ms="413" started-at="2019-09-03T13:35:02Z" finished-at="2019-09-03T13:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="getAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="getAllCookies" is-config="true" duration-ms="9" started-at="2019-09-03T13:35:02Z" finished-at="2019-09-03T13:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCookies -->
+        <test-method status="FAIL" signature="loginwithInvaliduserds2(java.lang.String, java.lang.String)[pri:5, instance:parameterTestng.MercuryTsTest@591f989e]" name="loginwithInvaliduserds2" duration-ms="2462" started-at="2019-09-03T13:35:02Z" description="Verify that invalid user not able to login into Mercury Tours Application" finished-at="2019-09-03T13:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ss]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-JEJJHSS', ip: '192.168.43.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/images/masts/mast_flightfinder.gif']"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-JEJJHSS', ip: '192.168.43.62', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1984e3ff21677678e0152c42cab92dcd
+*** Element info: {Using=xpath, value=//img[@src='/images/masts/mast_flightfinder.gif']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at parameterTestng.MercuryTsTest.loginwithInvaliduserds2(MercuryTsTest.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvaliduserds2 -->
+        <test-method status="PASS" signature="captureScreenshot()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="captureScreenshot" is-config="true" duration-ms="438" started-at="2019-09-03T13:35:05Z" finished-at="2019-09-03T13:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshot -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="deleteAllCookies" is-config="true" duration-ms="96" started-at="2019-09-03T13:35:05Z" finished-at="2019-09-03T13:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="dbConnectionClosed()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="dbConnectionClosed" is-config="true" duration-ms="1" started-at="2019-09-03T13:35:05Z" finished-at="2019-09-03T13:35:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnectionClosed -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:parameterTestng.MercuryTsTest@591f989e]" name="afterSuite" is-config="true" duration-ms="156" started-at="2019-09-03T13:35:05Z" finished-at="2019-09-03T13:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- parameterTestng.MercuryTsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- MercuryTsTest -->
+</testng-results>
