@@ -66,7 +66,7 @@ public class MercuryTsTest
 		  boolean flag1=driver.findElement(By.xpath("//img[@src='/images/masts/mast_flightfinder.gif']")).isDisplayed();
 		  System.out.println("Flight Finder image is displayed: " +flag1);
 		  driver.findElement(By.linkText("SIGN-OFF")).click();
-		  System.out.println("User1 has logged out from Mercury Tours Application successfully");
+		  System.out.println("User1 has logged out from MTA successfully");
 		  
 		  
 	  }
