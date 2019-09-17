@@ -39,7 +39,7 @@ public class MercuryTsTest
   {
 
 	 
-		  System.out.println("-----*----*------*---------- loginwithValiduser1ds method under Test-------*-------*-------*------------------");
+		  System.out.println("$$$$$$***$$$$$*-------loginwithValiduser1ds method under Test--------*$$$$$$*$$$$$$$*$$$$$$$$");
 		  driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(usernm1);
 		  driver.findElement(By.xpath("//input[@name='password']")).sendKeys(passwd1);
 		  driver.findElement(By.xpath("//input[@name='login']")).click();
